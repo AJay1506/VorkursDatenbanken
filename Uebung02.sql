@@ -20,3 +20,6 @@ SELECT DISTINCT JOB FROM emp;
 UPDATE emp SET SAL = SAL + 300 WHERE COMM IS NULL;
 --Aufgabe 2.10
 UPDATE emp SET SAL = 2500, COMM = 500 WHERE EMPNO = 7876;
+--Aufgabe 2.11
+INSERT INTO emp values (1234, 'Mueller', 'CLERK', 7839,  to_date('26.09.2017'), 3000, 0, 10);
+
