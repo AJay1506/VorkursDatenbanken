@@ -1,0 +1,2 @@
+--Aufgabe 2.1
+SELECT JOB,ENAME FROM emp WHERE ENAME LIKE '%a%';
